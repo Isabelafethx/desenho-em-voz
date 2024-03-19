@@ -51,7 +51,7 @@ function draw() {
     
     if(drawRect == "set")
     {
-        recognition(x,y,70,50);
+        rect(x,y,70,50);
         document.getElementById("status").innerHTML = "Um retângulo foi desenhado. ";
         drawRect = "";
     }
